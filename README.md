@@ -9,4 +9,7 @@ Based on http://www.TheProductivityGame.com/TimeTracker
 
 PRIVACY: Your event data is processed by the gadget within your browser and is not sent anywhere else.
 
+The main difference between this code and an original - you need only title for event, no need of an aditional description field editing.
+You need just write an title like this one "Project | Task description | ...", no more description editing "tags: Project, task description, ..." 
+
 [Documentation](https://developers.google.com/google-apps/calendar/gadgets/sidebar/)
