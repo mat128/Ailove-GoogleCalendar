@@ -33,8 +33,8 @@ function eventsCallback(a) {
             if (!e.allDay) {
                 var g = rangeDuration(rangeIntersection(visibleDatesJs, rangeToJs(e)));
                 f += g;
-                var i = /^tags: ?((?:.*, ?)*.*)$/m.exec(e.details);
-                if (i) i[1].split(/, ?/).forEach(function (j) {
+                var i = e.title
+                if (i) i.split(/|/).forEach(function (j) {
                     b[j] = (b[j] || 0) + g
                 });
                 else {
