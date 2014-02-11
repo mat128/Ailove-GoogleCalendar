@@ -1,0 +1,13 @@
+<messagebundle>
+  <msg name="title">Time Tracker</msg>
+  <msg name="description">Counts the number of hours in visible event.  Based on http://www.TheProductivityGame.com/TimeTracker.
+  
+PRIVACY: Your event data is processed by the gadget within your browser and is
+not sent anywhere else.  The authors does not have access to your
+data.</msg>
+  <msg name="author">Original code created by "The Productivity Game", modified by peko</msg>
+  <msg name="readingCalendar">reading calendars...</msg>
+  <msg name="Tag">Tag</msg>
+  <msg name="Hours">Hours</msg>
+  <msg name="Total">Total</msg> 
+</messagebundle>
