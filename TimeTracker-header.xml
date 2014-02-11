@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs 
+     title="__MSG_title__"
+     description="__MSG_description__"
+     height="40"
+     author="__MSG_author__"
+     author_email="me@peko.me"
+     screenshot="https://raw2.github.com/ailove-lab/Ailove-GoogleCalendar/master/img/screenshot.png"
+     thumbnail="https://raw2.github.com/ailove-lab/Ailove-GoogleCalendar/master/img/thumbnail.png">
+    <Require feature="dynamic-height"/>
+    <Require feature="google.calendar-0.5"/>
+    <Require feature="google.calendar-0.5.read"/>
+	<Require feature="locked-domain"/>
+    <Locale messages="https://raw2.github.com/ailove-lab/Ailove-GoogleCalendar/master/ALL_ALL.xml"/>
+  </ModulePrefs>
+  <Content type="html">
+  <![CDATA[<div id='main'>__MSG_readingCalendar__</div><script>
