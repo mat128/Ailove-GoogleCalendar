@@ -91,7 +91,7 @@ function eventsCallback(a) {
 
 gadgets.util.registerOnLoadHandler(function () {
     function a() {
-        b && google.calendar.read.getEvents(eventsCallback, "selected", b.startTime, b.endTime, {
+        b &amp;&amp; google.calendar.read.getEvents(eventsCallback, "selected", b.startTime, b.endTime, {
             requestedFields: ["details"]
         })
     }
@@ -135,7 +135,7 @@ gadgets.util.registerOnLoadHandler(function () {
 
 gadgets.util.registerOnLoadHandler(function () {
     function a() {
-        b && google.calendar.read.getEvents(eventsCallback, "selected", b.startTime, b.endTime, {
+        b &amp;&amp; google.calendar.read.getEvents(eventsCallback, "selected", b.startTime, b.endTime, {
             requestedFields: ["details"]
         })
     }
