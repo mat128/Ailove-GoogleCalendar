@@ -147,7 +147,4 @@ gadgets.util.registerOnLoadHandler(function () {
         a()
     });
     google.calendar.subscribeToDataChange(a)
-});</script>]]>
-
-</Content>
-</Module>
+});</script>]]></Content></Module>
