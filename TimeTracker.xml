@@ -6,13 +6,13 @@
      height="40"
      author="__MSG_author__"
      author_email="me@peko.me"
-     screenshot="https://raw2.github.com/ailove-lab/Ailove-GoogleCalendar/master/img/screenshot.png"
-     thumbnail="https://raw2.github.com/ailove-lab/Ailove-GoogleCalendar/master/img/thumbnail.png">
+     screenshot="https://raw.githubusercontent.com/ailove-lab/Ailove-GoogleCalendar/master/img/screenshot.png"
+     thumbnail="https://raw.githubusercontent.com/ailove-lab/Ailove-GoogleCalendar/master/img/thumbnail.png">
     <Require feature="dynamic-height"/>
     <Require feature="google.calendar-0.5"/>
     <Require feature="google.calendar-0.5.read"/>
 	<Require feature="locked-domain"/>
-    <Locale messages="https://raw2.github.com/ailove-lab/Ailove-GoogleCalendar/master/ALL_ALL.xml"/>
+    <Locale messages="https://raw.githubusercontent.com/ailove-lab/Ailove-GoogleCalendar/master/ALL_ALL.xml"/>
   </ModulePrefs>
   <Content type="html">
   <![CDATA[
